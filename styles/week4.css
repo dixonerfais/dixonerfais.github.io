@@ -1,0 +1,163 @@
+@charset"UTF-8";
+.topper {
+    text-decoration: none;
+    color: orangered;
+}
+
+body {
+    width: 800px;
+    background-image: url(../week4/skelly.gif);
+    margin: auto;
+}
+
+.container {
+    background-color: white;
+    border-color: black;
+    font-family: Rockwell;
+    padding: 0px;
+}
+
+.container2 {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.t1 {
+    font-size: 48px;
+    text-align: center;
+    border-bottom: 10px solid black;
+    margin-top: 0px;
+}
+
+h1 {
+    background: -webkit- linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background: -o- linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background: -moz- linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+}
+
+.t2 {
+    font-size: 40px;
+    color: darkorange;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    color: orangered;
+    text-align: center;
+}
+
+h3:first-letter {
+    font-size: 40px;
+}
+
+.t4 {
+    font-size: 22px;
+    color: orangered;
+}
+
+.t5 {
+    font-size: 22px;
+    color: orangered;
+}
+
+.t6 {
+    color: orangered;
+    text-align: center;
+}
+
+.foot {
+    font-size: 18px;
+    color: orangered;
+    text-align: center;
+}
+
+.headings {
+    font-family: Rockwell;
+}
+
+.para1 {
+    color: darkorange;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.para2 {
+    color: orangered;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+ul {
+    font-size: 28px;
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin: .5em;
+}
+
+#browse {
+    padding-left: 0px;
+    padding-right: 15%;
+}
+
+#join {
+    padding-left: 15%;
+    padding-right: 0px;
+}
+
+#goblin {
+    color: red;
+}
+
+#logo {
+    vertical-align: bottom;
+    padding-bottom: 20px
+}
+
+#logo2 {}
+
+@font-face {
+    font-family: font1;
+    src: local("DoubleFeature20"), url("../week4/DoubleFeature20.ttf");
+}
+
+#disclaimer {
+    font-size: 14px;
+}
+
+#guarantee {
+    font-size: 20px;
+}
+
+#botty {
+    color: darkred;
+    font-size: 14px;
+}
+
+.font1 {
+    font-family: font1;
+    letter-spacing: 4px;
+}
+
+a:link {
+    color: orangered;
+}
+
+a:visited {
+    color: orangered;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+a:focus {
+    color: darkgreen;
+}

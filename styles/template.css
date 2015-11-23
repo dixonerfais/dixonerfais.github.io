@@ -1,0 +1,49 @@
+@charset"UTF-8";
+body {
+    background-image: url(week1/bg-image.jpg);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+    background-color: rgba(213, 208, 204, 0.8);
+    border: 10px solid #A5A19E;
+    border-radius: 14px;
+    word-wrap: break-word;
+}
+
+.topper {
+    text-align: center;
+    color: dimgrey;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    color: darkslategrey;
+    font-size: 20px;
+}
+
+#list {
+    font-size: 20px;
+    color: dimgrey;
+}
+
+#below {
+    padding: 0px 10% 0px 10%;
+}
+
+a:link {
+    color: darkred;
+}
+
+a:visited {
+    color: lightslategrey;
+}
+
+a:hover {
+    color: firebrick;
+}

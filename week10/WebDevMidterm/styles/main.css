@@ -1,0 +1,342 @@
+@charset "utf-8";
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: darkslategrey;
+}
+
+html {
+    background-color: orange;
+}
+
+body {
+    margin-top: 0px;
+    margin: auto;
+}
+
+header {
+    margin: auto;
+    padding: 1% 0px;
+    background-color: black;
+}
+
+header h1 {
+    margin: 0 .25em;
+}
+
+header h1 #kayack-logo {
+    color: white;
+    background-color: orange;
+    padding: 0px 6px;
+    font-size: 125%;
+}
+
+header h1 #because {
+    color: white;
+    font-size: 80%;
+}
+
+header h1 em {
+    color: orange;
+    font-size: 80%;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 0 10%;
+    background: linear-gradient(white, orange);
+    background: -webkit-linear-gradient(white, orange);
+    background: -o-linear-gradient(white, orange);
+    background: -moz-linear-gradient(white, orange);
+}
+
+#bigr {
+    font-size: 1.5em;
+    color: orange;
+}
+
+body main .stronk {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+body main h2 {
+    margin-top: 0;
+    padding: 20px 10px 0px 10px;
+    background-color: lightgrey;
+    border: 2px solid gray;
+    border-top: 0px;
+    text-align: center;
+    font-weight: 100;
+    color:
+}
+
+body main section {
+    margin-top: 0;
+    padding: 20px;
+    background-color: lightgrey;
+    border: 2px solid gray;
+}
+
+body main p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+body main section span {
+    font-size: 1.4em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+li{
+    text-align: left;
+}
+
+.image-table {}
+
+th {
+    color: dimgray;
+    padding-top: 1.5em;
+    width: auto;
+}
+
+td {
+    padding: .2%;
+    padding-top: .5%;
+}
+
+.btn {
+    background-color: orange;
+}
+
+.btn .round {
+    background-color: #ffb733;
+}
+
+body main section table a {
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 12px 53px 12px 23px;
+    text-transform: uppercase;
+    width: 60%;
+    position: relative;
+    transition: all, .3s;
+    display: inline-block;
+}
+
+body main section table a span {
+    position: relative;
+    z-index: 3;
+}
+
+.round {
+    border-radius: 50%;
+    width: 1.83em;
+    height: 1.83em;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    transition: .3s, ease-out;
+    z-index: 2;
+}
+
+i {
+    position: absolute;
+    right: 23%;
+    top: 26%;
+    transition: all, .3s, ease-out;
+}
+
+.hoverthing {
+    font-size: 125%;
+}
+
+body main section table a:hover {
+    padding-left: 14%;
+    padding-right: 7%
+}
+
+body main section table a:hover .round {
+    width: calc(100% - 6px);
+    border-radius: 1.83em;
+}
+
+body main section table a:hover i {
+    padding-right: 65%;
+    transition: ease-out;
+}
+
+@media screen and (max-width: 595px) {
+    body main section table a {
+        display: none;
+    }
+    body main section table td {
+        display: inline-block;
+        margin: auto;
+    }
+    body main section table td img {
+        margin: auto;
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    body main section table a:hover {
+        width: 79%;
+    }
+    body main section table #london a:hover .hoverthing {
+        padding: 0 1.3em;
+    }
+    body main section table #london a .hoverthing {
+        padding: 0 1.3em;
+    }
+    body main section table #hk a:hover .hoverthing {
+        padding: 0 1.3em;
+    }
+    body main section table #hk a .hoverthing {
+        padding: 0;
+    }
+    body main section table #hk a: hover .hoverthing {
+        padding: -0.5em;
+    }
+    body main section table .round {
+        padding-left: -1em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        width: 80%;
+    }
+    table,
+    thead,
+    tbody,
+    th,
+    td {
+        display: inline;
+    }
+    td img {
+        margin: 0 0 0 45%;
+        width: 55%;
+    }
+    th {
+        position: absolute;
+        margin-left: -3%;
+        padding-top: 10%;
+        padding-left: 4%;
+        padding-right: 4%;
+        font-size: 1.1em;
+        width: 26.6%;
+    }
+    #maui {
+        padding-top: 34.5%;
+    }
+    #hk {
+        padding-top: 34.5%;
+    }
+    .hoverthing {
+        font-size: 80%;
+    }
+    body main section table a:hover {
+        padding-left: -24.6em;
+    }
+    body main section table a:hover .round {
+        padding-left: -10em;
+    }
+    body main section table a:hover {
+        padding-left: 86%;
+        padding-right: 21%
+    }
+    body main section table i {
+        top: 6px;
+        right: 6px;
+    }
+    body main section table #london i {
+        top: 12px;
+        right: 12px;
+    }
+    body main section table #hk i {
+        top: 12px;
+        right: 12px;
+    }
+    body main section table #chicago a .round {
+        width: 1.55em;
+        height: 1.55em;
+    }
+    body main section table #maui a .round {
+        width: 1.55em;
+        height: 1.55em;
+    }
+    body main section table #london a .round {
+        width: 2.15em;
+        height: 2.15em;
+    }
+    body main section table #hk a .round {
+        width: 2.15em;
+        height: 2.15em;
+    }
+    body main section table #chicago a:hover .round {
+        width: 7.5em;
+        height: 1.55em;
+    }
+    body main section table #maui a:hover .round {
+        width: 7.5em;
+        height: 1.55em;
+    }
+    body main section table #london a:hover .round {
+        width: 7.5em;
+        height: 2.15em;
+    }
+    body main section table #hk a:hover .round {
+        width: 7.5em;
+        height: 2.15em;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body main section table a {
+        font-size: .8em;
+    }
+    body main section table a:hover {
+        padding-left: 30em;
+        padding-right: 30em;
+    }
+    body main section table a .round {
+        width: 20em;
+        height: 20em
+    }
+    body main section table a: hover .round {
+        width: 6em;
+        height: 2em;
+    }
+}
+
+@media screen and (max-width: 857px) {
+    body main section table a {
+        font-size: .8em;
+    }
+    body main section table a:hover {
+        padding-left: 24.6%;
+        padding-right: 0%
+    }
+    body main section table a .round {
+        width: 2em;
+        height: 2em
+    }
+    body main section table a: hover .round {
+        width: 6em;
+        height: 2em;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    body main section table #london a {
+        font-size: .8em;
+    }
+    body main section table #hk a {
+        font-size: .8em;
+    }
+}

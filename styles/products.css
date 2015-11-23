@@ -1,0 +1,68 @@
+    @charset"UTF-8";
+    .title {
+        text-decoration: none;
+        color: orangered;
+    }
+    
+    body {
+        background-image: url(../week4/skelly.gif)
+    }
+    
+    .container {
+        background-color: rgba(0, 0, 0, 0.75);
+        border-color: darkred;
+        font-family: Rockwell;
+    }
+    
+    .t1 {
+        font-size: 56px;
+        color: orangered;
+        text-align: center;
+    }
+    
+    .t2 {
+        font-size: 50px;
+        color: goldenrod;
+        text-align: center;
+    }
+    
+    .t3 {
+        font-size: 22px;
+        color: orangered;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .headings {
+        font-family: Rockwell;
+    }
+    
+    #logo {
+        vertical-align: bottom;
+        padding-bottom: 20px
+    }
+    
+    #logo2 {}
+    
+    @font-face {
+        font-family: font1;
+        src: local("DoubleFeature20"), url("../week4/DoubleFeature20.ttf");
+    }
+    
+    .font1 {
+        font-family: font1;
+        letter-spacing: 4px;
+    }
+    
+    a:link {
+        color: darkred;
+    }
+    
+    a:visited {
+        color: darkred;
+    }
+    
+    a:hover {
+        color: orangered;
+    }

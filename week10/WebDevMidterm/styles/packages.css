@@ -1,0 +1,95 @@
+    @charset "utf-8";
+    header {
+        margin: auto;
+        background-color: black;
+    }
+    
+    header h1 #kayack-logo {
+        background-color: black;
+        font-size: 80%;
+    }
+    
+    #firsthalf {
+        color: white;
+    }
+    
+    #secondhalf {
+        color: orange;
+    }
+    
+    body main {
+        text-align: center;
+    }
+    
+/*
+    main {
+    background-color: orange;
+    animation-name: animo;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes animo {
+    0% {
+        background-color: height="0%";
+    }
+    100% {
+        background-color: height="100%";
+    }
+}
+*/
+    
+    #bigr {
+        color: darkslategray;
+    }
+    
+    #colored {
+        color: orangered;
+        font-weight: 100;
+        font-size: 100%;
+        display: inline;
+    }
+    
+    #act {
+        font-size: 145%
+    }
+    
+    .imagelist p {
+        text-transform: uppercase;
+        background-size: 100%;
+        padding: 20% 0;
+        font-size: 300%;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.6);
+        font-style: italic;
+        word-wrap: break-word;
+    }
+    
+    .rio {
+        background: url(../images/rio.jpg);
+    }
+    
+    .ny {
+        background: url(../images/ny.jpg);
+    }
+    
+    .cancun {
+        background: url(../images/cancun.jpg);
+    }
+    
+    .imagelist .rio {
+        color: rgba(75, 255, 234, 0.75);
+    }
+    
+    .imagelist .ny {
+        color: rgba(255, 255, 255, 0.75);
+    }
+    
+    .imagelist .cancun {
+        color: rgba(167, 0, 0, 0.75);
+    }
+    
+    body main section {
+        border-top: 0px;
+    }
